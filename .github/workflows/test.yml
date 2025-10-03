@@ -20,7 +20,7 @@ jobs:
       - name: Test with pytest
         run: |
           pip install pytest pytest-cov
-          pytest examples_functions.py
+          pytest example_functions.py
           pytest test_examples.py
 
 
