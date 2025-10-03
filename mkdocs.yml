@@ -1,0 +1,23 @@
+site_name: Functions
+
+nav:
+  - Home: index.md
+  - Tutorials: tutorials.md
+  - How to Guide: how_to_guides.md
+  - Explanation: explanation.md 
+  - Reference:
+      - Reference Overview: reference.md
+      - My adder: my_adder.md
+      - My thermo stat: my_thermo_stat.md
+      - Perimeter of a rectangle: perimeter_of_rectangle.md
+      - Have digit: have_digits.md
+      - Area of a rectangle: area_of_rectangle.md
+
+theme: readthedocs
+
+site_favicon: favicon.ico
+
+plugins:
+  - search
+  - mkdocstrings
+
